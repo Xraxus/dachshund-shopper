@@ -1,6 +1,6 @@
 {
-  "name": "Jamnior zakupowicz",
-  "short_name": "Jamnior",
+  "name": "Zakupowicz jamnior",
+  "short_name": "Zakupowicz",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#FFEBD6",
-  "background_color": "#FFEBD6",
+  "theme_color": "#FFF5EB",
+  "background_color": "#FFF5EB",
   "display": "standalone"
 }
