@@ -42,11 +42,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingListEl(currentItem);
     }
   } else {
-    let noItemWarningEl = document.createElement("p");
-    noItemWarningEl.textContent = "Nie ma tu żadnych przedmiotów...";
-    shoppingListEl.after(noItemWarningEl);
-
-    shoppingListEl.remove();
+    shoppingListEl.innerHTML = "Nie ma tu żadnych przedmiotów...";
   }
 });
 
